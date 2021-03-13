@@ -4,14 +4,14 @@ Variables
 ======
 */
 :root {
-  --primaryLightColor: #d4e6a5;
-  --primaryColor: #476a2e;
+  --primaryLightColor: #c02c03;
+  --primaryColor: #ca64bd;
   --primaryDarkColor: #c02c03;
   --mainWhite: #fff;
   --offWhite: #f7f7f7;
-  --mainBackground: #f1f5f8;
+  --mainBackground: #230312;
   --mainOverlay: rgba(35, 10, 36, 0.4);
-  --mainBlack: #222;
+  --mainBlack: #9e9595;
   --mainGrey: #ececec;
   --darkGrey: #afafaf;
   --mainRed: #bd0303;
@@ -91,7 +91,7 @@ Buttons
   display: inline-block;
 }
 .btn:hover {
-  background: var(--primaryColor);
+  background: #d395cb;
   color: var(--mainWhite);
 }
 .btn-white {
@@ -101,16 +101,16 @@ Buttons
 }
 .btn-white:hover {
   background: var(--mainWhite);
-  color: var(--primaryColor);
+  color: #d395cb;
 }
 .btn-primary {
-  background: var(--primaryColor);
+  background: #d395cb;
   color: var(--mainWhite);
   border-color: transparent;
 }
 .btn-primary:hover {
   background: var(--primaryLightColor);
-  color: var(--primaryColor);
+  color: #d395cb;
 }
 .btn-block {
   width: 100%;
@@ -156,7 +156,7 @@ Navbar
   display: inline-block;
   font-weight: bold;
   margin-right: 0.5rem;
-  font-weight: 400;
+  font-weight: 600;
   letter-spacing: 2px;
   font-size: 1.2rem;
   padding: 0.25rem 0.5rem;
@@ -166,7 +166,7 @@ Navbar
   color: var(--primaryColor);
 }
 .logo {
-  width: 12rem;
+  width: 17rem;
 }
 /* 
 ====== 
@@ -302,6 +302,7 @@ Form
   border-radius: var(--mainBorderRadius);
   padding: 0.5rem;
   font-size: 1.2rem;
+  color: #fff;
 }
 /* 
 ====== 
